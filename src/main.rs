@@ -10,7 +10,7 @@ fn main() {
             println!("FizzBuzz");
         } else if count % 3 == 0 {
             println!("Fizz");
-        } else if count % 3 == 0 {
+        } else if count % 5 == 0 {
             println!("Buzz");
         } else {
             println!("{}", count);
@@ -26,7 +26,7 @@ fn main() {
             println!("FizzBuzz");
         } else if i % 3 == 0 {
             println!("Fizz");
-        } else if i % 3 == 0 {
+        } else if i % 5 == 0 {
             println!("Buzz");
         } else {
             println!("{}", i);
